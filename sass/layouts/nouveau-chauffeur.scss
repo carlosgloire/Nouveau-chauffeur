@@ -12,7 +12,7 @@
         }
       } 
     }
-  
+
     section{
       grid-template-columns: 1fr;
       .right-bloc{
@@ -22,9 +22,8 @@
           display: none;
       }
   
-      }
-     
-    }
+    }   
+}
 
     @include u.breakpoints(mobile){
       .right-bloc{
@@ -33,9 +32,8 @@
           table{
             width: 130%;
           }
+        }
       }
-      }
-    
     }
     @media screen and (max-width:883px) {
       .right-bloc{
@@ -56,11 +54,9 @@
           }
           aside .nom{
             display: initial;
-
           }
         }
       }
-     
     }
     @media screen and (max-width:396px){
       section{
@@ -70,7 +66,6 @@
                 width: 320px;
                 table{
                   width: 150%;
-                 
                 }
               }
             }
@@ -85,7 +80,6 @@
                 width: 300px;
                 table{
                   width: 150%;
-                 
                 }
               }
             }
@@ -100,7 +94,6 @@
                 width: 275px;
                 table{
                   width: 150%;
-                 
                 }
               }
             }
