@@ -41,6 +41,7 @@ section{
     div{
         @include display_flex;
         gap: 15px;
+        -webkit-column-gap: 15px;
         p{ 
             img{
                 width: 25px;
@@ -64,6 +65,7 @@ section{
     .nav_links{
         display: grid;
         gap: 30px;
+        -webkit-column-gap: 30px;
         padding-left: 35px;
         padding-right: 35px;
         text-align: center;
@@ -116,6 +118,7 @@ section{
     padding-right: 5%;
     display: grid;
     gap: 20px;
+    -webkit-column-gap: 20px;
     
     .profile{
        .user{
@@ -182,6 +185,7 @@ section{
         aside .nom {
             @include display_flex;
             gap: 10px;
+            -webkit-column-gap: 10px;
             select{
                 @extend input
             }
